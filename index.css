@@ -14,6 +14,8 @@ body {
   margin-right: 40px;
 }
 
+/*-------------------------------------------------------------------------------container 1 */
+
 #container {
   display: flex;
   flex-direction: column;
@@ -195,4 +197,40 @@ span {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .5);
   box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+/*-------------------------------------------------------------------------------container 2*/
+
+#cart-container{
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  height: 92vh;
+}
+#cart-title{
+  margin:0 auto;
+  text-align:center;
+  font-size: 1em;
+  padding:1rem;
+}
+.cart-row{
+  display:flex;
+  justify-content: space-around;
+  background-color:#F2F4F4;
+  padding:1rem;
+  border-radius:4px;
+}
+
+.cart-text{
+  display:flex;
+  gap:1rem;
+}
+
+.purchase-button{
+  border:none;
+  border-radius: 4px;
+  background-color: #50A990;
+  color:#F2F4F4;
+  padding:1rem;
 }
